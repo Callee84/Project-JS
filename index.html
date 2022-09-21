@@ -8,6 +8,8 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Cabin&family=Fira+Sans:wght@200&family=Oswald:wght@200&display=swap');
         </style>
+    <!-- Font awsome script -->
+    <script src="https://kit.fontawesome.com/55701b98dc.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Document</title>
 </head>
@@ -17,30 +19,41 @@
 
     <header>
     <div>
-        <h1>Ready for a skitrip?</h1>
-        <h3>It's only a few clicks away!</h3>
+        <h1>Are your heating and electric bills thru the roof?</h1>
+        <h3>If so, try installing solar panels on your roof and get those bills down.</h3>
     </header>    
     </div>
 
-    <!-- Choise one, destination -->
+    <!-- Choice one, destination -->
 
-    <div>
-        <h2 class="destination">First, choose your destination.</h2>
-        <span id="klappen">
-            <h2>Klappen</h2>
-            <h3>Perfect for family</h3>
-        </span>
-        <span id="stoten">
-            <h2>Stoten</h2>
-            <h3>You can't find better skiing</h3>
-        </span>
-        <span id="lindvallen">
-            <h2>Lindvallen</h2>
-            <h3>When you want some party aswell.</h3>
-        </span>
+    <div class="cost">
+        <h2>Wan't to now how much it costs?</h2>
+        <h3>Just fill in the form and we'll give you a price instantly!</h3>
+        <div>
+            <h3 id="house-property">Where do you live?</h3>
+        </div>
+        <div>
+            <button data-type="house">
+                <i class="fa-solid fa-house"></i>
+                <h3>House</h3>
+            </button>
+            <button data-type="estate">
+                <i class="fa-solid fa-landmark"></i>
+                <h3>Estate</h3>
+            </button>
+            <button data-type="appartment">
+                <i class="fa-solid fa-building"></i>
+                <h3>Appartment</h3>
+            </button>
+        </div>
+        <div>
+
+        </div>
     </div>
-    
 
+
+
+    <!-- JavaScript -->
     <script src="assets/js/script.js"></script>
 </body>
 </html>
