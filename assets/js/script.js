@@ -26,5 +26,19 @@ document.addEventListener("DOMContentLoaded", function(){
 
 function calculatePrice() {
     let userAnswer = document.getElementById("size-house"),value;
-   
+   console.log("price")
+}
+
+/**
+ * Pop- up window for contact information
+ */
+
+let popup = document.getElementById("pop-up")
+
+function openPopup(){
+    popup.classList.add("open-popup");
+}
+
+function closePopup(){
+    popup.classList.remove("open-popup");
 }
