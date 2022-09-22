@@ -1,8 +1,6 @@
-
-
 document.addEventListener("DOMContentLoaded", function(){
+    
     let buttons = document.getElementsByTagName("button");
-
     for (let button of buttons) {
         button.addEventListener("click", function() {
             if (this.getAttribute("data-type") === "house") {
@@ -13,21 +11,31 @@ document.addEventListener("DOMContentLoaded", function(){
             else if (this.getAttribute("data-type") === "appartment") {
                 alert(`Right... You accually need to own the building in order to put up solar panels. Please contact your landlord.`)
                 throw `Sorry, we don't do appartments`;
+                console.log("Appartment")
             }
         })
     }
 })
 
+let house = 50
+
+let industry = 100
+
 /**
- * calulation for prices
- * there is different prices depending on property
+ * calculating price for solar panels
  */
 
-function calculatePrice() {
-    let userAnswer = document.getElementById("size-house"),value;
-   console.log("price")
-}
+document.getElementById("calculation").addEventListener("submit", computeResults);
 
+function computeResults(e) {
+    
+    const UIamount = document.getElementById("size-prop").value;
+   
+
+    const principal = parseFloat(UIamount);
+    
+
+}
 /**
  * Pop- up window for contact information
  */
