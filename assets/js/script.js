@@ -1,5 +1,9 @@
 document.addEventListener("DOMContentLoaded", function(){
     
+    let house = 50
+    
+    let industry = 100
+
     let buttons = document.getElementsByTagName("button");
     for (let button of buttons) {
         button.addEventListener("click", function() {
@@ -17,9 +21,7 @@ document.addEventListener("DOMContentLoaded", function(){
     }
 })
 
-let house = 50
 
-let industry = 100
 
 /**
  * calculating price for solar panels
@@ -30,7 +32,6 @@ document.getElementById("calculation").addEventListener("submit", computeResults
 function computeResults(e) {
     
     const UIamount = document.getElementById("size-prop").value;
-   
 
     const principal = parseFloat(UIamount);
     
