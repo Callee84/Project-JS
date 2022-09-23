@@ -41,13 +41,27 @@ function computeResults(e) {
  * Pop- up window for contact information
  */
 
-let popup = document.getElementById("pop-up")
+// Create reference to button and popup element
 
-function openPopup(){
-    popup.classList.add("open-popup");
-}
+const button = document.querySelector("button");
+const popup = document.querySelector(".popup-wrapper");
+const close = document.querySelector(".popup-close");
 
-function closePopup(){
-    popup.classList.remove("open-popup");
-}
+// Click event listener to show popup
+
+button.addEventListener("click", () => {
+  // Change the CSS display property to 'block'
+  popup.style.display = "block";
+});
+
+// Click event listener to hide popup
+close.addEventListener("click", () => {
+  // Chnage the CSS display property to 'none'
+  popup.style.display = "none";
+});
+
+// Close popup when clicking outside the element
+popup.addEventListener("click", () => {
+  popup.style.display = "none";
+});
 

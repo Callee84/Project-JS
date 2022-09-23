@@ -17,7 +17,7 @@ body {
 
 .nav-bar {
     overflow: hidden;
-    background-color: rgba(0, 0, 0, .3);
+    background-color: rgba(104, 153, 23, .3);
     list-style-type: none;
     float: right;
 }
@@ -74,7 +74,7 @@ body {
 }
 
 .solar-panels {
-	height: 700px;
+	height: 750px;
 	margin-top: 5%;
 }
 
@@ -112,13 +112,26 @@ body {
 #solar-text {
 	margin-right: 5%;
 	float: right;
-	text-align: right;
+	text-align: left;
 	width: 40%;
-	margin-top: auto;
+	margin-top: 4%;
 }
 
+
+
 .calculation {
-	margin-top: 10%;
+	margin: 10% 0;
+	padding: 5%;
+	background-color: rgba(104, 153, 23, .3);
+	height: auto;
+}
+
+.calculation button {
+	background-color: #fd912ea6;
+	width: 15%;
+	height: 50px;
+	font-size: larger;
+	margin-top: 2%;
 }
 
 .questions {
@@ -155,15 +168,55 @@ button {
 }
 
 
-/* Pop-up window contact info '*/
+/* Pop-up window */
 
+popup-wrapper {
+	background-color: rgba(104, 153, 23, 0.3);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: none;
+	}
+	
+	.popup {
+	/*font-family: ;*/
+	text-align: center;
+	width: 100%;
+	max-width: 600px;
+	margin: 10% auto;
+	padding: 20px;
+	background-color: rgba(104, 153, 23, 0.3);
+	position: relative;
+	height: 550px;
+	}
+	
+	.popup a {
+		background-color: crimson;
+		color: #fafafa;
+		border: 1px #fafafa solid;
+		border-radius: 2px;
+		text-decoration: none;
+		padding: 6px 10px;
+	  }
+	  
+	  .popup-close {
+		position: absolute;
+		top: 5px;
+		right: 8px;
+		cursor: pointer;
+	  }
+	  
+
+/* footer and contact */
 
 footer {
     height: auto;
     width: 100%;
     margin-top: 30px;  
     position: absolute;
-	background-color: rgba(0, 0, 0, .3);
+	background-color: rgba(104, 153, 23, .3);
 	margin-bottom: 0;
 }
 
