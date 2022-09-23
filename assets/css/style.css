@@ -79,6 +79,13 @@ body {
 	width: 40%;
 }
 
+#expensive-times {
+background: url(../images/expensive.jpg);
+float: right;
+width: 40%;
+border-radius: 30%;
+}
+
 #solar-text {
 	margin-right: 5%;
 	float: right;
