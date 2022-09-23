@@ -73,10 +73,15 @@ body {
 	/* border-radius: 5%; */
 }
 
+.solar-panels {
+	height: 600px;
+}
+
 #expensive {
 	margin-left: 5%;
 	text-align: left;
 	width: 40%;
+	margin-bottom: 15%;
 }
 
 #expensive-times {
@@ -84,6 +89,8 @@ background: url(../images/expensive.jpg);
 float: right;
 width: 40%;
 border-radius: 30%;
+height: 300px;
+vertical-align: middle;
 }
 
 #solar-text {
@@ -91,10 +98,11 @@ border-radius: 30%;
 	float: right;
 	text-align: right;
 	width: 40%;
+	margin-top: auto;
 }
 
 .calculation {
-	margin-top: 20%;
+	margin-top: 10%;
 }
 
 .questions {
