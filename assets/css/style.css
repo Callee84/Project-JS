@@ -232,15 +232,21 @@ button {
 /* slideshow container*/
 
 .slide-cont {
-	height: 500px;
+	height: 300px;
 	width: 60%;
-	/*margin-left: 20%;*/
+	/* margin-left: 20%; */
 	position: relative;
+	
+}
+
+.slide {
+	width: 30rem;
+	height: 30rem;
 }
 
 /* slideshow images */
 
-#slideone {
+/* #slideone {
 	background: url(../images/slideone.jpg);
 }
 
@@ -262,7 +268,7 @@ button {
 
 #slidesix {
 	background: url(../images/slidesix.jpg);
-}
+} */
 
 /* indicators */
 
@@ -286,6 +292,12 @@ button {
 @keyframes fade {
 	from {opacity: .3;}
 	to {opacity: 1;}
+}
+
+.contact {
+	height: 200px;
+	margin-top: 5%;
+	margin-bottom: 5%;
 }
 
 /* footer and contact */

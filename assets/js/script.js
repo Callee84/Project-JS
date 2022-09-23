@@ -74,9 +74,9 @@ function showImg() {
     slideImg++;
     if (slideImg > slides.length) {slideImg = 6}
     for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace("active","");
+        dots[i].className = dots[i].className.replace(" active","");
     }
     slides[slideImg-1].style.display = "block";
-    dots[slideImg-1].className += "active";
+    dots[slideImg-1].className += " active";
     setTimeout(showImg, 4000);
 }
