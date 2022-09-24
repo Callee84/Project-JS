@@ -240,7 +240,7 @@ button {
 } */
 
 .slide img {
-	width: auto;
+	width: auto%;
 	height: 500px;
 	background-image: contain;
 }
@@ -262,7 +262,7 @@ button {
 
 .fade {
 	animation-name: fade;
-	animation-duration: 2s;
+	animation-duration: 3s;
 }
 
 @keyframes fade {
@@ -358,6 +358,11 @@ footer {
 		font-size: 35px;
 	}
 
+	.slide img {
+		width: 90%;
+		height: 400px;
+	}
+
 	.calculation button {
 		width: 25%;
 	}
@@ -366,6 +371,10 @@ footer {
 @media screen and (max-width: 710px){
 	.nav-bar a {
 		font-size: 30px;
+	}
+
+	.popup {
+		width: 80%;
 	}
 
 }
@@ -378,6 +387,10 @@ footer {
 
 	#contact {
 		margin-top: 5%;
+	}
+
+	.slide img {
+		height: 350px;
 	}
 }
 
@@ -395,16 +408,15 @@ footer {
 
 }
 
+@media screen and (max-width: 570px) {
+	.slide img {
+		height: 300px;
+	}
+}
+
 @media screen and (max-width: 535px){
 	.nav-bar a {
 		font-size: 20px;
-	}
-
-}
-
-@media screen and (max-width: 445px){
-	.nav-bar a {
-		font-size: 17px;
 	}
 
 }
@@ -414,6 +426,24 @@ footer {
 		width: 40%;
 	}
 
+}
+
+@media screen and (max-width: 490px){
+	.slide img {
+		height: 250px;
+	}
+}
+
+@media screen and (max-width: 445px){
+	.nav-bar a {
+		font-size: 17px;
+	}
+}
+
+@media screen and (max-width: 430px) {
+	.slide img {
+		height: 200px;
+	}
 }
 
 @media screen and (max-width: 400px){
@@ -428,4 +458,10 @@ footer {
 		font-size: 15px;
 	}
 
+}
+
+@media screen and (max-width: 350px) {
+	.slide img {
+		height: 175px;
+	}
 }
