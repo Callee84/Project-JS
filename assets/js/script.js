@@ -1,39 +1,20 @@
-document.addEventListener("DOMContentLoaded", function(){
-    
-    let house = 50
-    
-    let industry = 100
+// fade-in for every section
 
-    let buttons = document.getElementsByTagName("button");
-    for (let button of buttons) {
-        button.addEventListener("click", function() {
-            if (this.getAttribute("data-type") === "house") {
-                function calculatePrice(){
-                    let price = parseInt(document.getElementById("size-prop")*"house")
-                    return ["house"*"size-prop"]
-                }
-                console.log(price)
-            } else if (this.getAttribute("data-type") === "industry") {
-                console.log(industry)
-            }
-            else if (this.getAttribute("data-type") === "appartment") {
-                alert(`Right... You accually need to own the building in order to put up solar panels. Please contact your landlord.`)
-                throw `Sorry, we don't do appartments`;
-                
-            }
-        })
-    }
-})
-
-
-
-/**
- * calculating price for solar panels
- */
-
- 
-
-   
+const allSections = document.querySelectorAll('.section');
+const revealSection = function(entries, observer) {
+	const [entry] = entries;
+	if (!entry.isIntersecting) return;
+	entry.target.classList.remove('section__hidden');
+	observer.unobserve(entry.target);
+};
+const sectionObserver = new IntersectionObserver(revealSection, {
+	root: null,
+	threshold: 0.30,
+});
+allSections.forEach(function(section) {
+	sectionObserver.observe(section);
+	section.classList.add('section__hidden');
+});
 
 /**
  * Pop- up window for contact information

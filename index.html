@@ -17,6 +17,8 @@
 
     <!-- Header and header image -->
 
+    <div class="overlay hidden"></div>
+    
     <header>
         <div id="header">
             <div id="stuck" class="nav-bar"> 
@@ -29,7 +31,7 @@
     
     </header>    
    
-    <div id="index" class="solar-img"></div>
+    <div id="index" class="solar-img section"></div>
 
     <div class="toptext">
         <h1>Are your heating and electric bills thru the roof?</h1>
@@ -37,7 +39,10 @@
     </div>
 
     <!--  index body  -->
-    <section class="solar-panels" id="solar-panels" s>
+
+    <div class="overlay hidden"></div>
+
+    <section class="solar-panels section" id="solar-panels" s>
         <div id="expensive-times"></div>
             <div id="expensive">
                 <h2>Expensive times</h2>
@@ -61,70 +66,55 @@
 
     </section>
   
+    <!--  contact area  -->
 
-    <div class="calculation" id="install">
+    <div class="overlay hidden"></div>
+
+    <div class="contact-form section" id="install">
         <h2>Can I install solar panels on my roof?</h2>
             <h3>Of course you can.</h3>
                 <p>Everyone can pretty much install solar panels. Depending on the size and inclination on your roof you will
                    be able to produce your own electricity.</p>
-            <h3>Click the button below and calculate the price on your solar panel.</h3>
-        <button id="pop-button">Calculate price</button>
+            <h3>Click the button below and contact us for more information</h3>
+        <button id="pop-button">Contact us!</button>
     </div>
         
-    <!--  pop-up  -->
-
+    <!--  pop-up contact -->
     
-    <div class="popup-wrapper">
-        <div class="popup">
-          <div class="popup-close">X</div>
+ <div class="popup-wrapper">
+     <div class="popup">
+        <div class="popup-close">X</div>
             <div class="popup-content">
-      
-    <!--  inside pop-up  -->
-        <!--  property  -->
-            <div class="house-property">
-                <h3>On what kind of property would you like your installment?</h3>
-            </div>
-                <div class="property">
-                    <button data-type="house">
-                        <i class="fa-solid fa-house"></i>
-                        <h3>House</h3>
-                    </button>
-                    <button data-type="industry">
-                        <i class="fa-solid fa-industry"></i>
-                        <h3>Industry</h3>
-                    </button>
-                    <button data-type="appartment">
-                        <i class="fa-solid fa-building"></i>
-                        <h3>Appartment</h3>
-                    </button>
-                </div>
-    <!--  size & panel choice  -->
-        <div class="questions">
-            <div>
-                <h3>How big is your house/ property?</h3>
-            <span class="square-m">
-                <input type="number" id="size-prop">
-                    <h3>Square Meter</h3>
-            </span>
-            </div>
-            <h3>Which type of solar panels would you like?</h3>
-                <button>Basic</button>
-                <button>Premium</button>
-                <button>Premium+</button>
-            </div>
-            <button type="submit" id="submit-btn">Check Your Price</button>
-    <!--  final price  -->
-            <div class="price">
-                <h2>The cost for this installation will be:</h2>
-                <span id="price-span">fs</span>
-            </div>
 
-        </div>
+    <!--  inside pop-up  -->
+    <div class="questions">
+        <form method="get" action="thanks.html" class="question-form">
+            <h3>Fill out the form and we'll get back to you.</h3>
+            <br>
+            <label for="name">Name</label>
+            <input type="text" class="name-email visitor" id="name" placeholder="What's your name?" required>
+            <br>
+            <label for="email">Email</label>
+            <input type="email" class="name-email visitor" id="email" placeholder="What's your email?" required>
+            <br>
+            <label for="message">Message to us</label>
+            <input type="text" class="your-question visitor" id="message" name="your-question" placeholder="What's your question?" required>
+            <br>
+            <input type="submit" id="send" value="Send question!">
+         </form>
+        </div> 
+
+    <!--  end inside  -->
+
+            </div>
     </div>
-  </div>
+</div>
 
     <!--  slideshow  -->
-<div class="slide-cont">
+
+    <div class="overlay hidden"></div>
+
+<div class="slide-cont section">
     <div class="slide fade">
         <img src="./assets/images/slideone.jpg" alt="">
         <!-- <span id="slideone"></span> -->
@@ -159,23 +149,31 @@
     <span class="dot"></span>
     <span class="dot"></span>
 </div>
-    <!--  contact  -->
-<div class="contact" id="contact">
+
+<!--  contact & address  -->
+
+<div class="overlay hidden"></div>
+ 
+<div class="contact section" id="contact">
+    <h2 id="contact-header">We are here for you</h2>
     <p>If you have som questions regaring solar panels</p>
     <p>Please, don't hesitate to call or even swing by our office.</p>
-
-    <h2>We are here for you</h2>
     <p>Phone number and address are down below.</p>
     <h3>Phone : 123 - 456 778</h3>
-    <h3>Adress : Solar Panel Road 1, 123 45, Kalmar Sweden</h3>
+    <h3>Adress: Skeppsbrogatan 51, Kalmar, Sweden</h3>
+    <div>
+        <iframe src="https://maps.google.com/maps?q=skeppsbrogatan%2051%20kalmar&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"" frameborder="0"></iframe>
+    </div>
 </div>
 
-<!--  contact pop-up  -->
+
+<div class="overlay hidden"></div>
+
     <!--  footer  -->
 
     <footer>
         <div>
-            <ul class="social">
+            <ul class="social section">
                 <li>
                     <a href="https://www.facebook.com" target="_blank" rel="noopener"
                     aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
