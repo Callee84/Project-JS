@@ -482,11 +482,40 @@ footer {
 		height: 300px;
 		margin-top: 45px;
 	}
+
+	.solar-panels {
+		height: 1200px;
+	}
+
+
+	#expensive-times{
+		float: none;
+		width: 90%;
+		margin-left: 6%;
+		height: 300px;
+	}
+
+	#expensive {
+		width: 90%;
+		text-align: center;
+		margin-top: auto;
+	}
+
+	#solar-pan-cen {
+		float: none;
+		width: 90%;
+		height: 300px;
+	}
+
+	#solar-text {
+		width: 90%;
+		text-align: center;
+		margin-top: auto;
+	}
+	
 }
 
 @media screen and (max-width: 430px) {
-	
-	
 	.slide img {
 		height: 200px;
 	}
