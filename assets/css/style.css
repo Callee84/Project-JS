@@ -69,7 +69,7 @@ body {
 }
 
 .solar-img {
-	background: url(../images/sol-cel-head-small.jpeg)no-repeat center center;
+	background: url(../images/sol-cel-head.jpeg);
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -314,6 +314,7 @@ footer {
 
 @media screen and (max-width: 1150px){
 	.solar-img {
+		background: url(../images/sol-cel-head-small.jpeg);
 		height: 500px;
 	}
 	
@@ -404,6 +405,10 @@ footer {
 
 	.popup {
 		width: 80%;
+	}
+
+	footer {
+		margin-top: 60px;
 	}
 
 }
@@ -512,6 +517,12 @@ footer {
 		text-align: center;
 		margin-top: auto;
 	}
+
+	.square-m {
+		display: inline-flex;
+		width: 60%;
+		margin-left: 10%;
+	}
 	
 }
 
@@ -519,6 +530,10 @@ footer {
 	.slide img {
 		height: 200px;
 	}
+}
+
+footer {
+	margin-top: 75px;
 }
 
 @media screen and (max-width: 400px){
@@ -554,5 +569,9 @@ footer {
 	.solar-img{
 		margin-top: 35px;
 		height: 200px;
+	}
+
+	footer {
+		margin-top: 85px;
 	}
 }
