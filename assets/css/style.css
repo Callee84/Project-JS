@@ -41,7 +41,7 @@ body {
 #stuck {
     position: fixed;
     top: 0;
-    width: 98%;
+    width: 99%;
 }
 
 /* .headline {
@@ -320,6 +320,12 @@ footer {
 
 }
 
+@media screen and (max-width: 1150px){
+	.calculation button {
+		width: 20%;
+	}
+
+}
 
 @media screen and (max-width: 950px){
 	#solar-pan-cen {
@@ -340,9 +346,86 @@ footer {
 
 }
 
-@media screen and (max-width: 805px;){
+@media screen and (max-width: 805px){
 	.nav-bar a {
 		font-size: 39px;
+	}
+
+}
+
+@media screen and (max-width: 780px){
+	.nav-bar a {
+		font-size: 35px;
+	}
+
+	.calculation button {
+		width: 25%;
+	}
+}
+
+@media screen and (max-width: 710px){
+	.nav-bar a {
+		font-size: 30px;
+	}
+
+}
+
+@media screen and (max-width: 670px){
+	#solar-pan-cen {
+		height: 200px;
+		margin-top: 9%;
+	}
+
+	#contact {
+		margin-top: 5%;
+	}
+}
+
+@media screen and (max-width: 650px){
+	.calculation button {
+		width: 30%;
+	}
+
+}
+
+@media screen and (max-width: 620px){
+	.nav-bar a {
+		font-size: 25px;
+	}
+
+}
+
+@media screen and (max-width: 535px){
+	.nav-bar a {
+		font-size: 20px;
+	}
+
+}
+
+@media screen and (max-width: 445px){
+	.nav-bar a {
+		font-size: 17px;
+	}
+
+}
+
+@media screen and (max-width: 510px){
+	.calculation button {
+		width: 40%;
+	}
+
+}
+
+@media screen and (max-width: 400px){
+	.calculation button {
+		width: 50%;
+	}
+
+}
+
+@media screen and (max-width: 395px){
+	.nav-bar a {
+		font-size: 15px;
 	}
 
 }
