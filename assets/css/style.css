@@ -70,6 +70,10 @@ body {
 	font-weight: 500;
 }
 
+h1 {
+	font-size: xxx-large;
+}
+
 .toptext {
 	margin-top: 5%;
 }
@@ -87,6 +91,10 @@ body {
 .solar-panels {
 	height: 750px;
 	margin-top: 8%;
+}
+
+.solar-panels h2 {
+	font-size: x-large;
 }
 
 #expensive {
@@ -167,6 +175,10 @@ body {
 	padding: 5%;
 	background-color: rgba(104, 153, 23, .3);
 	height: 275px;
+}
+
+.contact-form h2 {
+	font-size: x-large;
 }
 
 .contact-form button {
@@ -500,6 +512,10 @@ footer {
 @media screen and (max-width: 570px) {
 	.slide img {
 		height: 300px;
+	}
+
+	iframe {
+		width: 70%;
 	}
 }
 

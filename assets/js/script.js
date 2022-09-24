@@ -9,7 +9,7 @@ const revealSection = function(entries, observer) {
 };
 const sectionObserver = new IntersectionObserver(revealSection, {
 	root: null,
-	threshold: 0.30,
+	threshold: 0.2,
 });
 allSections.forEach(function(section) {
 	sectionObserver.observe(section);
