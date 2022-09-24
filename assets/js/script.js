@@ -8,14 +8,18 @@ document.addEventListener("DOMContentLoaded", function(){
     for (let button of buttons) {
         button.addEventListener("click", function() {
             if (this.getAttribute("data-type") === "house") {
-                console.log("House")
+                function calculatePrice(){
+                    let price = parseInt(document.getElementById("size-prop")*"house")
+                    return ["house"*"size-prop"]
+                }
+                console.log(price)
             } else if (this.getAttribute("data-type") === "industry") {
-                console.log("Industry")
+                console.log(industry)
             }
             else if (this.getAttribute("data-type") === "appartment") {
                 alert(`Right... You accually need to own the building in order to put up solar panels. Please contact your landlord.`)
                 throw `Sorry, we don't do appartments`;
-                console.log("Appartment")
+                
             }
         })
     }
@@ -27,6 +31,9 @@ document.addEventListener("DOMContentLoaded", function(){
  * calculating price for solar panels
  */
 
+ 
+
+   
 
 /**
  * Pop- up window for contact information
@@ -58,7 +65,6 @@ close.addEventListener("click", () => {
 
 /**
  * Slidesshow aninmation
- * change img every 4 seconds
  */
 
 let slideImg = 0;
@@ -72,7 +78,7 @@ function showImg() {
         slides[i].style.display = "none";
     }
     slideImg++;
-    if (slideImg > slides.length) {slideImg = 6}
+    if (slideImg > slides.length) {slideImg = 1}
     for (i = 0; i < dots.length; i++) {
         dots[i].className = dots[i].className.replace(" active","");
     }

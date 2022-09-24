@@ -248,7 +248,7 @@ button {
 
 /* indicators */
 
-.indicator {
+.dot {
 	height: 15px;
 	width: 15px;
 	margin: 0 2px;
@@ -256,6 +256,10 @@ button {
 	border-radius: 50%;
 	display: inline-block;
 	transition: background-color 0.6s ease;
+}
+
+.active {
+	background-color: #fd912ea6;
 }
 
 /* slideshow animation */ 
