@@ -69,7 +69,7 @@ body {
 }
 
 .solar-img {
-	background: url(../images/sol-cel-head.jpg);
+	background: url(../images/sol-cel-head-small.jpeg)no-repeat center center;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -240,7 +240,7 @@ button {
 } */
 
 .slide img {
-	width: auto%;
+	width: auto;
 	height: 500px;
 	background-image: contain;
 }
@@ -313,6 +313,10 @@ footer {
 /* large screen from 1200px wide and down */
 
 @media screen and (max-width: 1150px){
+	.solar-img {
+		height: 500px;
+	}
+	
 	#solar-pan-cen {
 		height: 300px;
 	}
@@ -327,7 +331,17 @@ footer {
 
 }
 
+@media screen and (max-width: 1050px){
+	.solar-img {
+		height: 475px;
+	}
+}
+
 @media screen and (max-width: 950px){
+	.solar-img {
+		height: 450px;
+		}
+	
 	#solar-pan-cen {
 		height: 270px;
 		margin-top: 3%;
@@ -351,11 +365,21 @@ footer {
 		font-size: 39px;
 	}
 
+	.solar-img {
+		height: 400px;
+		margin-top: 78px;
+	}
+	
 }
 
 @media screen and (max-width: 780px){
 	.nav-bar a {
 		font-size: 35px;
+	}
+
+	.solar-img {
+		height: 380px;
+		margin-top: 72px;
 	}
 
 	.slide img {
@@ -371,6 +395,11 @@ footer {
 @media screen and (max-width: 710px){
 	.nav-bar a {
 		font-size: 30px;
+	}
+
+	.solar-img {
+		height: 360px;
+		margin-top: 65px;
 	}
 
 	.popup {
@@ -405,6 +434,11 @@ footer {
 	.nav-bar a {
 		font-size: 25px;
 	}
+	
+	.solar-img {
+		background: url(../images/sol-cel-head-mobile.jpg) no-repeat center center;
+		margin-top: 57px;
+	}
 
 }
 
@@ -417,6 +451,11 @@ footer {
 @media screen and (max-width: 535px){
 	.nav-bar a {
 		font-size: 20px;
+	}
+
+	.solar-img {
+		height: 325px;
+		margin-top: 50px;
 	}
 
 }
@@ -438,9 +477,16 @@ footer {
 	.nav-bar a {
 		font-size: 17px;
 	}
+
+	.solar-img {
+		height: 300px;
+		margin-top: 45px;
+	}
 }
 
 @media screen and (max-width: 430px) {
+	
+	
 	.slide img {
 		height: 200px;
 	}
@@ -458,10 +504,26 @@ footer {
 		font-size: 15px;
 	}
 
+	.solar-img {
+		height: 280px;
+		margin-top: 42px;
+	}
+
 }
 
 @media screen and (max-width: 350px) {
 	.slide img {
 		height: 175px;
+	}
+}
+
+@media screen and (max-width: 350px) {
+	.nav-bar a {
+		font-size: 10px;
+	}
+
+	.solar-img{
+		margin-top: 35px;
+		height: 200px;
 	}
 }
