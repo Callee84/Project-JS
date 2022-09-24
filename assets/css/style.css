@@ -330,8 +330,13 @@ label {
 	margin-bottom: 5%;
 } */
 
+.contact {
+	margin: 2%;
+}
+
 iframe {
-	width: 50%;
+	width: 60%;
+	margin-top: 3%;
 }
 
 /* footer  */
