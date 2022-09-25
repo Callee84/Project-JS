@@ -70,23 +70,26 @@ Scolling down the visitor sees some more information if they wish to call or eve
 I've conducted 4 separate test for this website
 
 * W3C HTML checker - HTML
+
 ![Screenshot of w3c html checker result](/assets/images/img-readme/screen-html-check.png)
 
 There was some issues when I first ran the W3C HTML checker but I was able to tidy this up.
-![Screenshot of w3c html checker result before tidy-up](/assets/images/img-readme/screen-html-error.png)
+
+![Screenshot of w3c html checker result before tidy-up](/assets/images/img-readme/screen-htlm-errors.png)
 
 * Jigsaw CSS tester - CSS
 ![Screenshot of find us area]
 
 * Jshint - JavaScript 
+
 ![Screenshot of results from javascript tester jhint](/assets/images/img-readme/screen-js-fade.png)
 ![Screenshot of results from javascript tester jhint](/assets/images/img-readme/screen-js-slide.png)
 
-
-
 * Lighthouse - Performance site.
-![Screenshot of find us area]
+![Screenshot of find us area](/assets/images/img-readme/screen-lighthouse-test.png)
 
+### *Dev Tool*
+For this project I really began understanding the power of Google Dev Tools. Just testing out different solutions before changing the actual code has both helped me save time and fixing problems. Especially when working with the responsive design the Dev Tools has been a huge help for me.
 
 ### Content
 * Issues with css bugfixes were found searching [w3schools](https://www.w3schools.com/), revisit older lessons with the Code Institute Full Stack Deveploper program and alot of youtube videos from especially [Kevin Powell](https://www.youtube.com/kepowob)
