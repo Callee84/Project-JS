@@ -70,13 +70,38 @@ Scolling down the visitor sees some more information if they wish to call or eve
 I've conducted 4 separate test for this website
 
 * W3C HTML checker - HTML
+![Screenshot of w3c html checker result](/assets/images/img-readme/screen-html-check.png)
 
+There was some issues when I first ran the W3C HTML checker but I was able to tidy this up.
+![Screenshot of w3c html checker result before tidy-up](/assets/images/img-readme/screen-html-error.png)
 
 * Jigsaw CSS tester - CSS
-
+![Screenshot of find us area]
 
 * Jshint - JavaScript 
+![Screenshot of results from javascript tester jhint](/assets/images/img-readme/screen-js-fade.png)
+![Screenshot of results from javascript tester jhint](/assets/images/img-readme/screen-js-slide.png)
+
 
 
 * Lighthouse - Performance site.
+![Screenshot of find us area]
 
+
+### Content
+* Issues with css bugfixes were found searching [w3schools](https://www.w3schools.com/), revisit older lessons with the Code Institute Full Stack Deveploper program and alot of youtube videos from especially [Kevin Powell](https://www.youtube.com/kepowob)
+* Inspiration to hover function came from the [Love Running Essential Project](https://callee84.github.io/love-running/)
+* Inspiration for Readme file came from [Sourdough project 1](https://github.com/Callee84/sourdough). 
+* Inspiration for slideshow came from [AC Milan home page](https://www.acmilan.com/en)
+
+### Media
+* Images used on site comes from the site [Pexels](https://www.pexels.com/) and is free to use.
+
+### Special thanks
+* Again to my mentor Harry Dhillon for exeptional help and guidance.
+
+***
+
+Carl Holm,
+Kalmar, Sweden 
+2022
