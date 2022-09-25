@@ -91,6 +91,17 @@ There was some issues when I first ran the W3C HTML checker but I was able to ti
 ### *Dev Tool*
 For this project I really began understanding the power of Google Dev Tools. Just testing out different solutions before changing the actual code has both helped me save time and fixing problems. Especially when working with the responsive design the Dev Tools has been a huge help for me.
 
+## Deployment
+This site was build using GitPod and deployd via GitHub. 
+
+### Deploy to GitHub Pages
+* This is done by going to the "settings" tab in the GitHub repository. (step 1 in picture below)
+* After selecting settings you click the "page" tab on the left side of the page. (step 2 in picture below)
+* Third step is to select the option "main" under the first dropdown with the default value of "none" and save. (step 3 i picture)
+* After you hit the save button the page will refresh and show the url generated to your site. (step 4 i picture below)
+
+![Screenshot of deployment of site via Github](/assets/images/img-readme/screen-github.png)
+
 ### Content
 * Issues with css bugfixes were found searching [w3schools](https://www.w3schools.com/), revisit older lessons with the Code Institute Full Stack Deveploper program and alot of youtube videos from especially [Kevin Powell](https://www.youtube.com/kepowob)
 * Inspiration to hover function came from the [Love Running Essential Project](https://callee84.github.io/love-running/)
