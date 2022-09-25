@@ -1,4 +1,6 @@
-// fade-in for every section
+/**
+ * Fade in when scrolling down on page
+ */
 
 const allSections = document.querySelectorAll('.section');
 const revealSection = function(entries, observer) {
@@ -20,29 +22,20 @@ allSections.forEach(function(section) {
  * Pop- up window for contact information
  */
 
-// Create reference to button and popup element
-
 const button = document.querySelector("#pop-button");
 const popup = document.querySelector(".popup-wrapper");
 const close = document.querySelector(".popup-close");
 
-// Click event listener to show popup
-
 button.addEventListener("click", () => {
-  // Change the CSS display property to 'block'
+  
   popup.style.display = "block";
 });
 
-// Click event listener to hide popup
 close.addEventListener("click", () => {
-  // Chnage the CSS display property to 'none'
+  
   popup.style.display = "none";
 });
 
-// Close popup when clicking outside the element
-// popup.addEventListener("click", () => {
-//   popup.style.display = "none";
-// });
 
 /**
  * Slidesshow aninmation
