@@ -50,14 +50,6 @@ body {
     width: 99%;
 }
 
-/* .headline {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(241, 234, 234, 0.3);
-} */
-
 #header {
 	height: 20%;
 	width: 100%;
@@ -69,6 +61,8 @@ body {
 	text-align: center;
 	font-weight: 500;
 }
+
+/* solar panel section */
 
 h1 {
 	font-size: xxx-large;
@@ -147,7 +141,6 @@ h1 {
 	}
 
 .popup {
-	/*font-family: ;*/
 	text-align: center;
 	width: 100%;
 	max-width: 600px;
@@ -268,26 +261,7 @@ label {
     border: #e49a65 5px solid;
 }
 
-
-
-	
-
-/* .popup a {
-	background-color: crimson;
-	color: #fafafa;
-	border: 1px #fafafa solid;
-	border-radius: 2px;
-	text-decoration: none;
-	padding: 6px 10px;
-	  } */
-  
-
-/* slideshow container*/
-
-/* .slide-cont {
-	position: relative;
-	
-} */
+/* slideshow */
 
 .slide img {
 	width: auto;
@@ -296,7 +270,19 @@ label {
 }
 
 
-/* indicators */
+/* slideshow animation */ 
+
+.fade {
+	animation-name: fade;
+	animation-duration: 3s;
+}
+
+@keyframes fade {
+	from {opacity: .3;}
+	to {opacity: 1;}
+}
+
+/* indicators slide show */
 
 .dot {
 	height: 15px;
@@ -312,23 +298,6 @@ label {
 	background-color: #fd912ea6;
 }
 
-/* slideshow animation */ 
-
-.fade {
-	animation-name: fade;
-	animation-duration: 3s;
-}
-
-@keyframes fade {
-	from {opacity: .3;}
-	to {opacity: 1;}
-}
-
-/* .contact {
-	height: 200px;
-	margin-top: 5%;
-	margin-bottom: 5%;
-} */
 
 .contact {
 	margin: 2%;
