@@ -332,6 +332,11 @@ label {
 
 .contact {
 	margin: 2%;
+	margin-top: 10%;
+}
+
+#contact-header {
+	font-size: x-large;
 }
 
 iframe {
