@@ -30,21 +30,21 @@ The footer contains links to various social media. Clicking the will open link i
 
 ***
 
-## Site Structure
+## Site structure
 
 This site contains one page. Using the navigaton bar it takes the visitor to designated sections of this page. As it's main function is to get the visitor to make contact with the company I've made it to a very clean site with highlight on the contactbutton.
 
-### *Top of page*
+### *Top of page - landing area*
 The visitor "lands" on the page and is immediately welcomed by a big picture on solar panels. 
 
 ![Screenshot top of page](/assets/images/img-readme/screen-home.png)
 
-### *Solar Panel area*
+### *Solar panel area*
 Scrolling down I've listed some simple to understand messages in to why you should install solar-panels on you roof.
 
 ![Screenshot solar panel area](/assets/images/img-readme/screen-solar-p.png)
 
-### *Contact Us area*
+### *Contact us area*
 Continue scolling down the page the "make contact area" appears. Highlighted is the contact-button which has a contast color and clicking it takes the visitor to a pop-up window containing a contactform.
 
 ![Screenshot contact popup](/assets/images/img-readme/screen-contact.png)
@@ -59,7 +59,7 @@ Below the contact area is a slideshow containng six images rolling automaticlly 
 
 ![Screenshot of slideshow](/assets/images/img-readme/screen-slide.png)
 
-### *Find Us*
+### *Find us*
 Scolling down the visitor sees some more information if they wish to call or even visit the company. This area also has an iframe containg location on Google Maps.
 
 ![Screenshot of find us area](/assets/images/img-readme/sceen-bottom.png)
