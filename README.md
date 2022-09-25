@@ -67,5 +67,16 @@ Scolling down the visitor sees some more information if they wish to call or eve
 
 ## Testing
 
+I've conducted 4 separate test for this website
 
+* W3C HTML checker - HTML
+
+
+* Jigsaw CSS tester - CSS
+
+
+* Jshint - JavaScript 
+
+
+* Lighthouse - Performance site.
 
