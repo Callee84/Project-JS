@@ -60,3 +60,8 @@ function showImg() {
     dots[slideImg-1].className += " active";
     setTimeout(showImg, 4000);
 }
+
+let sendBtn = document.querySelector("send");
+sendBtn.addEventListener("click", () => {
+  alert(`Thank you for reaching out. We'll get back to you as soon as possible.`)
+});
