@@ -515,6 +515,11 @@ footer {
 }
 
 @media screen and (max-width: 570px) {
+	#solar-pan-cel{
+		height: 150%;
+		margin-top: 20%;
+	}
+	
 	.slide img {
 		height: 300px;
 	}
@@ -533,7 +538,40 @@ footer {
 		height: 325px;
 		margin-top: 50px;
 	}
-	
+
+	.solar-panels {
+		height: 1200px;
+	}
+
+	#expensive-times{
+		float: none;
+		width: 90%;
+		margin-left: 6%;
+		height: 300px;
+	}
+
+	#expensive {
+		width: 90%;
+		text-align: center;
+		margin-top: auto;
+	}	
+
+	#solar-pan-cen {
+		float: none;
+		width: 90%;
+		height: 300px;
+	}
+
+	#solar-text {
+		width: 90%;
+		text-align: center;
+		margin-top: 8%;
+	}
+
+	.contact-form {
+		height: 310px;
+	}
+
 	#send {
 		width: 150px;
 	}
@@ -548,6 +586,10 @@ footer {
 }
 
 @media screen and (max-width: 490px){
+	.contact-form {
+		height: 350px;
+	}
+	
 	.slide img {
 		height: 250px;
 	}
@@ -568,7 +610,7 @@ footer {
 		margin-top: 45px;
 	}
 
-	.solar-panels {
+	/* .solar-panels {
 		height: 1200px;
 	}
 
@@ -590,13 +632,13 @@ footer {
 		float: none;
 		width: 90%;
 		height: 300px;
-	}
+	} */
 
-	#solar-text {
+	/* #solar-text {
 		width: 90%;
 		text-align: center;
 		margin-top: auto;
-	}
+	} */
 
 	.square-m {
 		display: inline-flex;
@@ -607,6 +649,10 @@ footer {
 }
 
 @media screen and (max-width: 430px) {
+	.solar-panels {
+		height: 1250px;
+	}
+	
 	.slide img {
 		height: 200px;
 	}
@@ -632,11 +678,6 @@ footer {
 
 }
 
-@media screen and (max-width: 350px) {
-	.slide img {
-		height: 175px;
-	}
-}
 
 @media screen and (max-width: 350px) {
 	.nav-bar a {
@@ -648,11 +689,25 @@ footer {
 		height: 200px;
 	}
 
+	.solar-panels {
+		height: 1300px;
+	}
+
 	.contact-form {
-		height: 370px;
+		height: 400px;
+	}
+
+	.slide img {
+		height: 175px;
 	}
 
 	footer {
 		margin-top: 85px;
+	}
+}
+
+@media screen and (max-width: 335px) {
+	.contact-form{
+		height: 420px;
 	}
 }
