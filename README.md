@@ -19,15 +19,14 @@ This site is design as a presentation and it's function is that the visitor gets
 
 Starting with the sticky navigation bar at the top that follows the visitor down through the page for quick and easy navigation through the website. The navigation bar also has a hover function which highlights the current position with a underline. This hover-function also appears on the contact form and in the footer on the social media links.
 
+*There are three functions using JavaScript on the page*
 The site has a "reveal function" which makes the different sections , which initially ar hidden, appear while scolling down. 
-
 In the contact seciton the is a contact-button which activates a pop-up window with a contact-form.
-
 Under the contact area the is a slideshow rolling with 6 different images.
 
 Under the slideshow there is some more contact info with phonenumber and an iframe contaning address to the companys fictitious location.
 
-THe footer contains links to various social media.
+The footer contains links to various social media. Clicking the will open link in an new tab.
 
 ***
 
